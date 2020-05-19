@@ -1,0 +1,1 @@
+web: gunicorn scriptHoster.wsgi --log-file -
