@@ -25,7 +25,7 @@ class ScriptRetrieveByNameView(APIView):
         else:
             queryset = Script.objects.all()
         serializer = ScriptSerializer(queryset, many=True)
-        return Response(serializer)
+        return Response(serializer.data)
 
 class ScriptRetrieveByNoOfRecords(APIView):
 
@@ -37,4 +37,4 @@ class ScriptRetrieveByNoOfRecords(APIView):
         else:
             queryset = Script.objects.all()
         serializer = ScriptSerializer(queryset, many=True)
-        return Response(serializer)
+        return Response(serializer.data)
