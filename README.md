@@ -2,8 +2,8 @@
 <a href="https://dscvit.com">
 	<img src="https://user-images.githubusercontent.com/30529572/72455010-fb38d400-37e7-11ea-9c1e-8cdeb5f5906e.png" />
 </a>
-	<h2 align="center"> < A small handy tool to crawl and store handy scripts on a server > </h2>
-	<h4 align="center"> < This is a baisc implementation of a Django server for storing some useful command line scripts. It also has a simple cli script to view the script in terminal or download to your filesystem. > <h4>
+	<h2 align="center"> A small handy tool to crawl and store handy scripts on a server </h2>
+	<h4 align="center"> This is a baisc implementation of a Django server for storing some useful command line scripts. It also has a simple cli script to view the script in terminal or download to your filesystem. <h4>
 </p>
 
 ---
